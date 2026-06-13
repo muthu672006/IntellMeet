@@ -1,0 +1,31 @@
+.task-page{
+  padding:40px;
+  text-align:center;
+  background:#f4f6f9;
+  min-height:100vh;
+}
+
+.task-page h1{
+  color:#2563eb;
+  margin-bottom:30px;
+}
+
+.task-cards{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  flex-wrap:wrap;
+}
+
+.task-card{
+  width:250px;
+  background:white;
+  padding:20px;
+  border-radius:15px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+
+.task-card:hover{
+  transform:translateY(-5px);
+}
